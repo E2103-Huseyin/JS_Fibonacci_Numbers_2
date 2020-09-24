@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+
+body > div img {
+
+    background-size: cover;
+    position: absolute;
+    
+    width: 100%;   
+    
+}
+
+main{
+    position: relative;
+    min-width: 200px;  
+    
+    width: 50%;
+    height:  auto;
+    opacity: 0.8;
+    margin: auto ;
+    background-color: rgba(125,50,75,0.5);
+    border-radius: 30px;
+    text-align: center;
+    border: 5px solid rgba(248, 170, 1, 0.4);
+   
+}
+main input{
+
+    width: 60px;
+    height: 30px;
+    font-size: x-large;
+    border-radius: 5px;
+    border: 2px solid rgba(248, 170, 1, 0.698);
+
+
+}
+
+h1{
+    font-size: 2rem;
+    color: azure;
+
+}
+p{
+    font-size: 22px;
+    color: azure;
+    height: 60px;
+ 
+    
+   
+    /* word-spacing: 10px; */
+    letter-spacing: 5px;
+    
+   
+
+}
+button{
+    width: auto;
+    height: 30px;
+    color: azure;
+    font-size: large;
+    border-radius: 5px;
+    background-color:rgba(100,100,100,0.7) ;
+    border: 2px solid rgba(248, 170, 1, 0.698);
+
+    
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body > div img {
+
+       
+        position: relative;
+        
+        width: 100%;
+         
+        
+    }
+
+
+
+    main{
+        
+        background-image: url(./image/fibo1.jpg);
+        background-size: cover; 
+        min-width:200px ; 
+        width: 95%;
+        height: 300px;
+        
+        
+    }
+    p{
+        font-size: 18px;
+        /* color: black; */
+        height: 60px;
+        font-weight: bold;
+        background-color: rgba(0,0,0,0.5);
+        height: auto;
+     
+        
+       
+        /* word-spacing: 10px; */
+        letter-spacing: 3px;
+        
+       
+    
+    }
+    h1{
+        
+        color:  rgba(248, 170, 1, 0.9);
+    
+    }
+
+    
+  }
